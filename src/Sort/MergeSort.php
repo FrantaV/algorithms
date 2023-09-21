@@ -5,22 +5,22 @@ declare(strict_types=1);
 namespace Algorithms\Sort;
 
 // Time Complexity
-// * Best: θ(nlog n)
-// * Worst: θ(nlog n)
+// * Best: Ω(nlog n)
+// * Worst: O(nlog n)
 // * Average: θ(nlog n)
 // * Space Complexity: O(n)
 // * Stability: Yes
 //
 // Advantages of Merge Sort
-//* Works well for larger lists*
+// * Works well for larger lists*
 //       * Has a consistent running time
-//* Preserves the order of equal elements
-//* Handles slow-to-access sequential data efficiently
+// * Preserves the order of equal elements
+// * Handles slow-to-access sequential data efficiently
 //
 // Disadvantages of Merge Sort
-//* Is slower for smaller lists compared to other sorting algorithms
-//* Takes up more space
-//* Requires additional memory for sorting, apart from the given array
+// * Is slower for smaller lists compared to other sorting algorithms
+// * Takes up more space
+// * Requires additional memory for sorting, apart from the given array
 
 use Algorithms\Comparator\ComparatorInterface;
 

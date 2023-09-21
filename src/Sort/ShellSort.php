@@ -5,8 +5,8 @@ declare(strict_types=1);
 namespace Algorithms\Sort;
 
 // Time Complexity
-// * Best: θ(nlog n)
-// * Worst: θ(n^2)
+// * Best: Ω(nlog n)
+// * Worst: O(n^2)
 // * Average: θ(nlog n)
 // * Space Complexity: O(1)
 // * Stability: No

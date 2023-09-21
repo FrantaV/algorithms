@@ -8,8 +8,8 @@ use Algorithms\ArrayUtils;
 use Algorithms\Comparator\ComparatorInterface;
 
 // Time Complexity
-// * Best: θ(nlog n)
-// * Worst: θ(nlog n)
+// * Best: Ω(nlog n)
+// * Worst: O(nlog n)
 // * Average: θ(nlog n)
 // * Space Complexity: O(1)
 // * Stability: No
