@@ -20,7 +20,7 @@ use Algorithms\Comparator\ComparatorInterface;
 // *  There are no such disadvantages of TimSort as it is an efficient sorting algorithm.
 
 class TimSort implements SortInterface {
-    public const MIN_MERGE_SIZE = 10;
+    public const MIN_MERGE_SIZE = 32;
 
     private ComparatorInterface $comparator;
 
